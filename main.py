@@ -39,7 +39,6 @@ for i in range (0, liczba_pracownikow):
     pracownik = Pracownik(imie, brutto)
     pracownicy.append(pracownik)
 
-
 laczny_koszt_pracodawcy = 0
 for i in range(0, liczba_pracownikow):
     imie = pracownicy[i].imie
